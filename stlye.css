@@ -8,9 +8,28 @@
   /* Media Query for responsiveness */
   @media (max-width: 768px) {
     .custom-mt {
-      margin-top: 1.5rem; /* Adjust the margin for smaller screens */
+       max-width: 300px;
+  margin: auto; /* Adjust the margin for smaller screens */
     }
   }
+
+@media (max-width: 768px) {
+    .row {
+      max-width: 300px;
+  margin: auto;
+}
+  }
+ @media (max-width: 768px) {
+    .col-sm-8 {
+  margin-top: 50px;
+}
+  }
+ @media (max-width: 768px) {
+    .col-sm-4{
+  margin-top: 10px;
+}
+  }
+
 .right-card {
   display: flex;
   justify-content: flex-end;
