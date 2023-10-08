@@ -1,0 +1,18 @@
+body{
+    background-color: #eaeaea;
+    color: #333;
+
+}
+
+.container.materi-md{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .container.materi-md{
+      max-width: 300px;
+  margin: auto;
+}
+}
