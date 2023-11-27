@@ -11,7 +11,7 @@
   }
 
   .row {
-    max-width: 300px;
+    max-width: 3o0px;
     margin: auto;
   }
 }
@@ -46,6 +46,61 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .col {
+    margin-bottom: 20px;
+  }
+
+  .card {
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    margin-bottom: 15px;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
 
 /* Navbar */
 /* Navbar */
@@ -178,5 +233,7 @@ body {
 
 /* Existing CSS styles */
 
-
+.btn-primary:hover {
+  background-color: #ffc107; /* Ganti dengan warna yang diinginkan */
+}
 /* Existing CSS styles */
