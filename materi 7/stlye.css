@@ -1,0 +1,90 @@
+body{
+    background-color: #eaeaea;
+    color: #333;
+
+}
+
+.container.materi-md{
+    margin-top: 3rem;
+    width: 800px;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .container.materi-md{
+      max-width: 300px;
+  margin-top: 2rem;
+}
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+    margin-top: 2rem; /* Sesuaikan margin top agar tidak terlalu dekat dengan konten sebelumnya */
+  }
+  
+  .footer h3 {
+    color: #ffc107;
+  }
+  
+  .footer p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ffc107;
+  }
+  
+  .navbar {
+    background-color: rgba(52, 58, 64, 0.8); /* Gunakan warna dengan transparansi */
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan pada navbar */
+  }
+  
+  .navbar-brand {
+    color: #3498db;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #3498db !important;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  .navbar:hover {
+    background-color: rgba(52, 58, 64, 1); /* Warna solid saat navbar dihover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Bayangan lebih tebal saat dihover */
+  }
+  
+  .navbar:hover .navbar-brand {
+    color: #ffc107;
+  }
+  
+  .navbar:hover .navbar-nav .nav-link {
+    color: #ffc107 !important;
+  }
+  
